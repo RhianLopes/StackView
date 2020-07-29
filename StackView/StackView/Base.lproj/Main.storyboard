@@ -18,20 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ioU-rv-sY1">
-                                <rect key="frame" x="20" y="44" width="240" height="384"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ioU-rv-sY1">
+                                <rect key="frame" x="20" y="44" width="240" height="408"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1D-Eh-Wof">
+                                    <view contentMode="scaleToFill" semanticContentAttribute="playback" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1D-Eh-Wof">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <color key="backgroundColor" red="0.1157227094" green="0.34923079029999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PSB-G1-ak3">
-                                        <rect key="frame" x="0.0" y="128" width="240" height="128"/>
+                                        <rect key="frame" x="0.0" y="140" width="240" height="128"/>
                                         <color key="backgroundColor" red="0.26529799939999998" green="1" blue="0.92421001089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETL-g7-xtp">
-                                        <rect key="frame" x="0.0" y="256" width="240" height="128"/>
+                                        <rect key="frame" x="0.0" y="280" width="240" height="128"/>
                                         <color key="backgroundColor" red="1" green="0.42846747219999998" blue="0.49611456370000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
